@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '4da846f3-77e5-4679-881e-e757823b8fb6'
+  dockerRegistryServiceConnection: 'rjsreg'
   imageRepository: 'nextdocker'
   containerRegistry: 'rjsreg.azurecr.io'
   dockerfilePath: '**/Dockerfile'
