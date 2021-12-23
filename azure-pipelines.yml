@@ -14,7 +14,7 @@ variables:
   imageRepository: 'nextdocker'
   containerRegistry: 'rjsreg.azurecr.io'
   dockerfilePath: '**/Dockerfile'
-  tag: 'latest'
+  tag: '$(Build.BuildId)'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
